@@ -82,7 +82,7 @@ void	backtracking_col(t_list *so_long)
 	int		i;
 
 	i = 0;
-	arr1 = (char **)malloc(sizeof(char *) * (so_long->height + 1));
+	arr1 = (char **)malloc(sizeof(char *) * (so_long->height + 1)); // 1*
 	if (!arr1)
 		exit(1);
 	while (i < so_long->height)
@@ -91,7 +91,7 @@ void	backtracking_col(t_list *so_long)
 		i++;
 	}
 	arr1[i] = NULL;
-	if (position1(arr1, so_long->player_x, so_long->player_y) == 0)
+	if (position1(arr1, so_long->player_x, so_long->player_y) == 0) //2*
 	{
 		ft_printf ("Error\nThe player has no way out.\n");
 		exit (0);
