@@ -1,8 +1,3 @@
-/* Just to mention, before you Snooping on other people's code,
-   just be creative and don't be like me. I use the same logic
-   to find valid paths for collectibles and Exit, largely I was
-   under pressure, but you have enough time to be creative. */
-
 #include "../so_long.h"
 
 int	count_c(char **c) // i use this function to count the number of collectibles every time i call it.
