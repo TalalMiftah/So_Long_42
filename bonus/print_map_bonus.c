@@ -85,6 +85,7 @@ int	print_map(t_list *so_long)
 	so_long->j = 0;
 	mlx_clear_window(so_long->mlx, so_long->win);
 	printing(so_long);
+	usleep(16666);
 	str = ft_itoa(so_long->move);
 	mlx_string_put(so_long->mlx, so_long->win, 32, 32, 0xffffff, str);
 	free(str);

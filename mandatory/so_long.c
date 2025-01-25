@@ -27,6 +27,7 @@ int	main(int ac, char **av)
 	so_long.c = 0; // the number of collectibles.
 	so_long.move = 0; // the number of the moves of our player we gonna use it to display it in terminal in mandatory part,
 			  // but in bonus i diplay it in the window
+	so_long.playerImg = "tools/P(left).xpm";
 	so_long.height = 0; // the height of our map.
 	if (ac != 2) // to check the number of arguments that the user typed (THIS IS JUST A PROTECTION TO OUR PROGRAM)
 		exit (1);

@@ -35,6 +35,7 @@ void	left(t_list *so_long)
 	{
 		so_long->map[so_long->player_x][so_long->player_y] = '0';
 		so_long->map[so_long->player_x][--so_long->player_y] = 'P';
+		so_long->playerImg = "tools/P(left).xpm";
 		so_long->move++;
 		ft_printf("%d\n", so_long->move);
 	}
@@ -75,6 +76,7 @@ void	right(t_list *so_long)
 	{
 		so_long->map[so_long->player_x][so_long->player_y] = '0';
 		so_long->map[so_long->player_x][++so_long->player_y] = 'P';
+		so_long->playerImg = "tools/P(right).xpm";
 		so_long->move++;
 		ft_printf("%d\n", so_long->move);
 	}

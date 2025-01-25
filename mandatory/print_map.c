@@ -6,8 +6,10 @@ void	map_var(t_list *so_long, char c)
 		so_long->img = mlx_xpm_file_to_image(so_long->mlx,
 				"tools/wall.xpm", &so_long->x, &so_long->y);
 	if (c == 'P')
+	{
 		so_long->img = mlx_xpm_file_to_image(so_long->mlx,
-				"tools/P(left).xpm", &so_long->x, &so_long->y);
+				so_long->playerImg, &so_long->x, &so_long->y);
+	}
 	if (c == 'C')
 		so_long->img = mlx_xpm_file_to_image(so_long->mlx,
 				"tools/end_man.xpm", &so_long->x, &so_long->y);

@@ -25,6 +25,7 @@ typedef struct s_list
 	int		height;
 	int		width;
 	char	**map;
+	char	*playerImg;
 	int		i;
 	int		j;
 	int		x;
