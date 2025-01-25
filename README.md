@@ -16,4 +16,4 @@
 <img src="images/so-long1.png" width="300px" />
 
 #### The Gate get opened after collecting the last one
-<img src="images/so-long2.png.png" width="300px" />
+<img src="images/so-long2.png" width="300px" />
